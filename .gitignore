@@ -1,0 +1,35 @@
+# 1. Bytecode & Python Environment Files
+############################################
+*.pyc
+__pycache__/
+venv/
+env/
+.env
+
+# 2. Database
+############################################
+# SQLite database files (DO NOT COMMIT production data!)
+*.sqlite3
+db.sqlite3
+
+# 3. Security & Credentials
+############################################
+# Sensitive settings file that contains SECRET_KEY and API keys
+# If you split settings into local/production, only ignore the local/dev file
+settings_local.py
+local_settings.py
+
+# 4. Media & Static Files
+############################################
+# Files uploaded by users (never commit to git)
+/media/
+
+# Compiled static assets (CSS/JS built by frontend tools)
+/static/
+
+# 5. Editor and OS Files
+############################################
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
